@@ -13,7 +13,7 @@ public class TestBase {
 	public static WebDriver driver;
 	
 	
-	@BeforeSuite
+	@BeforeMethod
 	public void startDriver()
 	
 	{
@@ -25,7 +25,7 @@ public class TestBase {
 	}
 	
 	
-	@AfterSuite
+	@AfterMethod
 	public void stopdriver()
 	
 	{
