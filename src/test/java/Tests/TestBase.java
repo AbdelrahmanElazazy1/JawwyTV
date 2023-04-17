@@ -29,7 +29,7 @@ public class TestBase {
 	public void stopdriver()
 	
 	{
-		//driver.quit();
+		driver.quit();
 		
 	}
 	
